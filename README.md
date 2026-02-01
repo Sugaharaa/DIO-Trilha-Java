@@ -2,7 +2,7 @@
 
 Repositório com os projetos desenvolvidos durante a trilha de **Java Básico** da [DIO](https://www.dio.me/).
 
-Aqui estão os exercícios práticos feitos para fixar os conceitos fundamentais da linguagem Java.
+Aqui estão os exercícios práticos feitos para fixar os conceitos fundamentais da linguagem Java, evoluindo desde sintaxe até controle de fluxo e lógica de programação.
 
 ---
 
@@ -17,6 +17,10 @@ Aqui estão os exercícios práticos feitos para fixar os conceitos fundamentais
 - Concatenação de textos
 - Estrutura de um programa Java
 - Método `main`
+- Estruturas condicionais (`if/else`)
+- Estruturas de repetição (`for`, `while`, `do-while`)
+- Tratamento de exceções
+- Organização de código em métodos
 
 ---
 
@@ -25,18 +29,18 @@ Aqui estão os exercícios práticos feitos para fixar os conceitos fundamentais
 | Projeto | Descrição |
 |---------|-----------|
 | **Conta-Banco** | Simulação de criação de conta bancária via terminal |
+| **Controle-Fluxo** | Desafio de contagem com validação de parâmetros e exceção customizada |
 
 ---
 
 ## Tecnologias usadas
 
 - Java
-- IDE (VS Code / IntelliJ / Eclipse)
 - Terminal
+- IDE (VS Code / IntelliJ / Eclipse)
 
 ---
 
 ## Objetivo
 
-Praticar a base da programação em Java e construir a fundação para módulos mais avançados.
-
+Praticar os fundamentos da programação em Java, consolidando a base necessária para avançar para orientação a objetos, APIs e frameworks.
