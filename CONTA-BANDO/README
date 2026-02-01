@@ -1,42 +1,33 @@
-# DIO - Trilha Java Básico
+# Projeto Conta-Banco
 
-Repositório com os projetos desenvolvidos durante a trilha de **Java Básico** da [DIO](https://www.dio.me/).
+Projeto desenvolvido como desafio do módulo de **Sintaxe Java** da trilha da DIO.
 
-Aqui estão os exercícios práticos feitos para fixar os conceitos fundamentais da linguagem Java.
+O programa simula a criação de uma conta bancária, recebendo os dados via terminal e exibindo uma mensagem final personalizada ao usuário.
 
 ---
 
-## Conteúdos praticados
+## Funcionalidades
 
-- Sintaxe básica do Java
+O sistema solicita ao usuário:
+
+- Número da conta
+- Número da agência
+- Nome do cliente
+- Saldo da conta
+
+Após a entrada dos dados, o sistema exibe a mensagem:
+
+> Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque.
+
+---
+
+## Conceitos aplicados
+
 - Declaração de variáveis
-- Tipos de dados
-- Entrada de dados via terminal
+- Tipos primitivos (`double`)
 - Classe `Scanner`
+- Entrada de dados pelo terminal
 - Classe `String`
-- Concatenação de textos
-- Estrutura de um programa Java
+- Método `concat()`
 - Método `main`
-
----
-
-## Projetos
-
-| Projeto | Descrição |
-|---------|-----------|
-| **Conta-Banco** | Simulação de criação de conta bancária via terminal |
-
----
-
-## Tecnologias usadas
-
-- Java
-- IDE (VS Code / IntelliJ / Eclipse)
-- Terminal
-
----
-
-## Objetivo
-
-Praticar a base da programação em Java e construir a fundação para módulos mais avançados.
-
+- Organização de um programa Java
