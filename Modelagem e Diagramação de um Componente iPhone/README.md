@@ -1,24 +1,29 @@
-# Desafio POO - iPhone (DIO)
+# Desafio POO - Modelagem do iPhone (DIO)
 
-Modelagem e implementação de um componente **iPhone**, representando suas funcionalidades como:
+Projeto desenvolvido como parte do desafio de **Programação Orientada a Objetos** da trilha Java Básico da DIO.
 
-- Reprodutor Musical
-- Aparelho Telefônico
-- Navegador na Internet
+O objetivo foi modelar e implementar, utilizando **interfaces e classes**, as principais funcionalidades do iPhone apresentadas no lançamento de 2007:
+
+- Reprodutor Musical  
+- Aparelho Telefônico  
+- Navegador na Internet 
+
+---
 
 ## Diagrama UML (Mermaid)
 
 ```mermaid
 classDiagram
-    class iPhone {
+    class Iphone {
         +tocar()
         +pausar()
         +selecionarMusica(String musica)
         +ligar(String numero)
         +atender()
-        +iniciarCorreioVoz()
+        +desligar()
         +exibirPagina(String url)
         +adicionarNovaAba()
+        +fecharAba()
         +atualizarPagina()
     }
 
@@ -33,17 +38,17 @@ classDiagram
         <<interface>>
         +ligar(String numero)
         +atender()
-        +iniciarCorreioVoz()
+        +desligar()
     }
 
     class NavegadorInternet {
         <<interface>>
         +exibirPagina(String url)
         +adicionarNovaAba()
+        +fecharAba()
         +atualizarPagina()
     }
 
-    iPhone ..|> ReprodutorMusical
-    iPhone ..|> AparelhoTelefonico
-    iPhone ..|> NavegadorInternet
-
+    Iphone ..|> ReprodutorMusical
+    Iphone ..|> AparelhoTelefonico
+    Iphone ..|> NavegadorInternet
